@@ -1,3 +1,4 @@
+//shortcut = rafce
 import React from 'react';
 
 const About = () => {
