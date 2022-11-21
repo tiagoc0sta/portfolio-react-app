@@ -7,7 +7,6 @@ import loginImg from '../assets/login.png';
 import blogImg from '../assets/blog.png';
 import boostImg from '../assets/boost.png';
 import menuImg from '../assets/menu.png';
-import dtmoneyImg from '../assets/dtmoney.png';
 
 const Work = () => {
   return (
@@ -52,10 +51,10 @@ const Work = () => {
                 To do list - React JS 
               </span>
               <div className='pt-8'>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://resilient-kleicha-2dfc01.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                   </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tiagoc0sta/ToDoList_React-Typescript.git" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
 
@@ -72,10 +71,10 @@ const Work = () => {
                 Feed list  - React JS 
               </span>
               <div className='pt-8'>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://630d3f4bdad2303af7b8d744--willowy-concha-8edf5c.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tiagoc0sta/React_IgniteFeed--TypeScript.git" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
 
@@ -92,10 +91,10 @@ const Work = () => {
                 Timer - React JS 
               </span>
               <div className='pt-8'>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://venerable-clafoutis-79b3c9.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tiagoc0sta/React_Ignite_Timer.git" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
 
@@ -112,10 +111,10 @@ const Work = () => {
                 Login screen - React JS 
               </span>
               <div className='pt-8'>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://gentle-torrone-5a5e78.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tiagoc0sta/IgniteLab_Design_System_FigmaToReact.git" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
 
@@ -132,10 +131,10 @@ const Work = () => {
                 Blog - React JS 
               </span>
               <div className='pt-8'>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://enchanting-melba-ae4632.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tiagoc0sta/Ignite_Github-blog_ReactJS.git" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
 
@@ -152,10 +151,10 @@ const Work = () => {
                 UI menu - Unity 
               </span>
               <div className='pt-8' >
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://play.unity.com/mg/other/downloads-982" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tiagoc0sta/Unity_ScriptableObjecs_MenuSelection2.git" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
 
@@ -172,10 +171,10 @@ const Work = () => {
                 Boost game - Unity 
               </span>
               <div className='pt-8'>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://sharemygame.com/@tiagoc0sta/rocket-in-mars" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tiagoc0sta/ProjectBoost_Unity3D.git" target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
 

@@ -47,19 +47,19 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-              href="https://www.linkedin.com/in/tiago-costa-2998894a/">
+              href="https://www.linkedin.com/in/tiago-costa-2998894a/" target="_blank" rel="noopener noreferrer">
               Linkedin <FaLinkedin size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#33333]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-              href="https://www.linkedin.com/in/tiago-costa-2998894a/">
+              href="https://github.com/tiagoc0sta" target="_blank" rel="noopener noreferrer">
               Github <FaGithub size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#129E57]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-              href="https://www.linkedin.com/in/tiago-costa-2998894a/">
+              href="https://github.com/tiagoc0sta" target="_blank" rel="noopener noreferrer">
               Email <HiOutlineMail size={30}/>
             </a>
           </li>
