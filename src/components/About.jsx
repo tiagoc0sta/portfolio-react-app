@@ -1,6 +1,5 @@
 //shortcut = rafce
 import React from 'react';
-import { Link } from 'react-scroll'
 
 const About = () => {
   return (
