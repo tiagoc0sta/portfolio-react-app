@@ -108,13 +108,13 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#129E57]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-              href="tiagodpv@gmail.com" target="_blank" rel="noopener noreferrer">
+              href="mailto:tiagodpv@gmail.com" target="_blank" rel="noopener noreferrer">
               Email <HiOutlineMail size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-              href="https://www.canva.com/design/DAFR3853D4c/rSYUIbrD263ZcINXbYx0Ow/edit?utm_content=DAFR3853D4c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+              href="https://drive.google.com/file/d/1HfSKFCNG8UsH7-kT9dcj2gNUEvjab-QQ/view?usp=share_link" target="_blank" rel="noopener noreferrer">
               Resume <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
