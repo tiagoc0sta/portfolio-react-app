@@ -18,28 +18,28 @@ const Contact = () => {
         <textarea className='bg-[#ccd6f6] p-2 rounded-md'  name='message' rows="10" placeholder='Message'></textarea>
         <button className='text-white border-2 hover:bg-[#129E57] hover:border-[#129E57] px-4 py-3 my-8 mx-auto flex items-center rounded-md'>Let's talk!</button>
 
-        <ul className=' flex justify-center mt-4'>
+        <ul className=' flex justify-center mt-10'>
 
           <li>
-            <a className='flex justify-between items-center w-full text-gray-300' 
+            <a className='flex justify-between items-center w-full text-gray-300 hover:scale-150 duration-500' 
               href="https://www.linkedin.com/in/tiago-costa-2998894a/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={30}/>
             </a>
           </li>
           <li >
-          <a className='flex justify-between items-center w-full text-gray-300' 
+          <a className='flex justify-between items-center w-full text-gray-300 hover:scale-150 duration-500' 
             href="https://github.com/tiagoc0sta" target="_blank" rel="noopener noreferrer">
             <FaGithub size={30}/>
           </a>
           </li>
           <li>
-          <a className='flex justify-between items-center w-full text-gray-300' 
+          <a className='flex justify-between items-center w-full text-gray-300 hover:scale-150 duration-500' 
             href="mailto:tiagodpv@gmail.com" target="_blank" rel="noopener noreferrer">
              <HiOutlineMail size={30}/>
           </a>          
         </li>
         <li>
-            <a className='flex justify-between items-center w-full text-gray-300' 
+            <a className='flex justify-between items-center w-full text-gray-300 hover:scale-150 duration-500' 
               href="https://drive.google.com/file/d/1HfSKFCNG8UsH7-kT9dcj2gNUEvjab-QQ/view?usp=share_link" target="_blank" rel="noopener noreferrer">
               <BsFillPersonLinesFill size={30}/>
             </a>
