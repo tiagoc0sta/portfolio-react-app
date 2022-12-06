@@ -18,7 +18,7 @@ const Contact = () => {
         <textarea className='bg-[#ccd6f6] p-2 rounded-md'  name='message' rows="10" placeholder='Message'></textarea>
         <button className='text-white border-2 hover:bg-[#129E57] hover:border-[#129E57] px-4 py-3 my-8 mx-auto flex items-center rounded-md'>Let's talk!</button>
 
-        <ul className=' flex justify-center mt-10'>
+        <ul className='flex justify-center mt-10'>
 
           <li>
             <a className='flex justify-between items-center w-full text-gray-300 hover:scale-150 duration-500' 
