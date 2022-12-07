@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 
 
+
 function App() {
   return (
     <div>
@@ -14,7 +15,8 @@ function App() {
       <About/> 
       <Skills/> 
       <Work/> 
-      <Contact/>   
+      <Contact/>  
+      
     </div>
   );
 }
