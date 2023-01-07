@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 import weatherImg from '../assets/weather.png';
-import todoImg from '../assets/todo.png';
-import feedImg from '../assets/feed.png';
-import timerImg from '../assets/timer.png';
-import loginImg from '../assets/login.png';
-import blogImg from '../assets/blog.png';
+import BeachesImg from '../assets/beaches.png';
+import airtravelImg from '../assets/airtravel.png';
+import weekawayImg from '../assets/weekaway.png';
+import driveImg from '../assets/drive.png';
+import bestEatsImg from '../assets/bestEats.png';
 import boostImg from '../assets/boost.png';
-import menuImg from '../assets/menu.png';
+import photographyImg from '../assets/photography.png';
 
 const Work = () => {
   return (
@@ -20,176 +20,274 @@ const Work = () => {
         </div>
 
         {/*Container*/}
-        <div  className='grid sm:grid-cols-2 md:grid-cols-4 gap-4' >
-
+        <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4'>
           {/*Grid Item*/}
-          <div style={{backgroundImage: `url(${weatherImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+          <div
+            style={{ backgroundImage: `url(${weatherImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100 '>
               <span className='text-2xl font-bold text-white trackin-wider'>
-                Weather API - React JS  
+                Weather API - React JS
               </span>
               <div className='pt-8'>
-                <a href="https://roaring-rabanadas-590164.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a
+                  href='https://roaring-rabanadas-590164.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
                 </a>
-                <a href="https://github.com/tiagoc0sta/weather-app-react.git" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href='https://github.com/tiagoc0sta/weather-app-react.git'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
                 </a>
-
               </div>
             </div>
           </div>
 
           {/*Grid Item*/}
-          <div style={{backgroundImage: `url(${todoImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+          <div
+            style={{ backgroundImage: `url(${BeachesImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100 '>
               <span className='text-2xl font-bold text-white trackin-wider'>
-                To do list - React JS 
+                BEACHES. - ReactJS
               </span>
               <div className='pt-8'>
-                <a href="https://resilient-kleicha-2dfc01.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                  </a>
-                <a href="https://github.com/tiagoc0sta/ToDoList_React-Typescript.git" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href='https://resilient-pavlova-744626.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
                 </a>
-
+                <a
+                  href='https://github.com/tiagoc0sta/travel-react-tailwind'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>
 
           {/*Grid Item*/}
-          <div style={{backgroundImage: `url(${feedImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+          <div
+            style={{ backgroundImage: `url(${airtravelImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100 '>
               <span className='text-2xl font-bold text-white trackin-wider'>
-                Feed list  - React JS 
+                AirTravel - React JS
               </span>
               <div className='pt-8'>
-                <a href="https://630d3f4bdad2303af7b8d744--willowy-concha-8edf5c.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a
+                  href='https://funny-sundae-804e00.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
                 </a>
-                <a href="https://github.com/tiagoc0sta/React_IgniteFeed--TypeScript.git" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href='https://github.com/tiagoc0sta/6_Airtravel_JS-HTML-CSS_CodecomMerce_YT'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
                 </a>
-
               </div>
             </div>
           </div>
 
           {/*Grid Item*/}
-          <div style={{backgroundImage: `url(${timerImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+          <div
+            style={{ backgroundImage: `url(${weekawayImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100 '>
               <span className='text-2xl font-bold text-white trackin-wider'>
-                Timer - React JS 
+                WeekAWay - React JS
               </span>
               <div className='pt-8'>
-                <a href="https://venerable-clafoutis-79b3c9.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a
+                  href='https://lively-begonia-50e989.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
                 </a>
-                <a href="https://github.com/tiagoc0sta/React_Ignite_Timer.git" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href='https://github.com/tiagoc0sta/trip'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
                 </a>
-
               </div>
             </div>
           </div>
 
           {/*Grid Item*/}
-          <div style={{backgroundImage: `url(${loginImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+          <div
+            style={{ backgroundImage: `url(${driveImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100 '>
               <span className='text-2xl font-bold text-white trackin-wider'>
-                Login screen - React JS 
+                Drive - React JS
               </span>
               <div className='pt-8'>
-                <a href="https://gentle-torrone-5a5e78.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a
+                  href='https://dapper-beijinho-e2b911.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
                 </a>
-                <a href="https://github.com/tiagoc0sta/IgniteLab_Design_System_FigmaToReact.git" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href='https://github.com/tiagoc0sta/drive'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
                 </a>
-
               </div>
             </div>
           </div>
-          
+
           {/*Grid Item*/}
-          <div style={{backgroundImage: `url(${blogImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+          <div
+            style={{ backgroundImage: `url(${bestEatsImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100 '>
               <span className='text-2xl font-bold text-white trackin-wider'>
-                Blog - React JS 
+                BestEats - React JS
               </span>
               <div className='pt-8'>
-                <a href="https://enchanting-melba-ae4632.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a
+                  href='https://quiet-faloodeh-f2ebf8.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
                 </a>
-                <a href="https://github.com/tiagoc0sta/Ignite_Github-blog_ReactJS.git" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href='https://github.com/tiagoc0sta/best-eats'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
                 </a>
-
-              </div>
-            </div>
-          </div>
-          
-          {/*Grid Item*/}
-          <div style={{backgroundImage: `url(${menuImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
-            {/* Hover effects */}
-            <div className='opacity-0 group-hover:opacity-100 '>
-              <span className='text-2xl font-bold text-white trackin-wider'>
-                UI menu - Unity 
-              </span>
-              <div className='pt-8' >
-                <a href="https://play.unity.com/mg/other/downloads-982" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href="https://github.com/tiagoc0sta/Unity_ScriptableObjecs_MenuSelection2.git" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-
               </div>
             </div>
           </div>
 
           {/*Grid Item*/}
-          <div style={{backgroundImage: `url(${boostImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+          <div
+            style={{ backgroundImage: `url(${photographyImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100 '>
               <span className='text-2xl font-bold text-white trackin-wider'>
-                Boost game - Unity 
+                Photography - ReactJS
               </span>
               <div className='pt-8'>
-                <a href="https://sharemygame.com/@tiagoc0sta/rocket-in-mars" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a
+                  href='https://rad-blancmange-7b05fa.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
                 </a>
-                <a href="https://github.com/tiagoc0sta/ProjectBoost_Unity3D.git" target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href='https://github.com/tiagoc0sta/captur-photography'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
                 </a>
-
               </div>
             </div>
           </div>
 
-          
-                    
-
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${boostImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover effects */}
+            <div className='opacity-0 group-hover:opacity-100 '>
+              <span className='text-2xl font-bold text-white trackin-wider'>
+                Boost game - Unity
+              </span>
+              <div className='pt-8'>
+                <a
+                  href='https://sharemygame.com/@tiagoc0sta/rocket-in-mars'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href='https://github.com/tiagoc0sta/ProjectBoost_Unity3D.git'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;
